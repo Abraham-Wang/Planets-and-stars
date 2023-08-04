@@ -54,6 +54,8 @@ imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output
 5. Your output image will be in the classification directory! Enjoy!
 
 [Video demonstration of images](https://youtu.be/czl5i-g_ZAo)
+## different video but no background noise or hassle
+[Video demonstration of testing](https://youtu.be/m9PgHWcoT1o)
 
 ## Datsets took from kaggle
 
