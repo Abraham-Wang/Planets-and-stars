@@ -14,11 +14,11 @@ Image of pluto tested(https://imgur.com/a/D2TPrr2)
 1. Make sure you're logged into the nano and that the nano is connected to vs code through ssh.
 2. Go to the folder to download the model and the dataset.(Make sure to only download folders that say project)
 3. Open the terminal and navigate to the classification directory
-4. Set the NET and DATASET variables
-$ NET=models/PROJECT
-$ DATASET=data/PROJECT
-5. Run the imagenet command.
-$ imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/[FOLDER]/[IMAGE NAME].jpg [NAME OF NEW IMAGE].jpg
+4. Set the NET and DATASET variables\n
+NET=models/PROJECT\n
+DATASET=data/PROJECT
+5. Run the imagenet command.\n
+imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/[FOLDER]/[IMAGE NAME].jpg [NAME OF NEW IMAGE].jpg
    
 1. Add steps for running this project.
 2. Make sure to include any required libraries that need to be installed for your project to run.
