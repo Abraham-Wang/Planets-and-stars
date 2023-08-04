@@ -20,15 +20,15 @@ network to find these objects. Using datasets from kaggle, I trained my resnet18
 ### Training your model(you can use mine if you want)
 1. Head to the jetson-inference directory
    ```ts
-   $ cd jetson-inference
+   cd jetson-inference
    ```
 3. Open the docker container
    ```ts
-   $ ./docker/run.sh
+   ./docker/run.sh
    ```
 4. Next, head to the classification directory.
    ```ts
-   $ cd python/training/classification
+   cd python/training/classification
    ```
 5. Finally, to train the model, fill in the number of epochs you want to use and run this command
    ```ts
@@ -43,12 +43,12 @@ network to find these objects. Using datasets from kaggle, I trained my resnet18
 1. Open the terminal and navigate to the classification directory
 2. Set the NET and DATASET variables
 ```ts
-$ NET=models/PROJECT
-$ DATASET=data/PROJECT
+NET=models/PROJECT
+DATASET=data/PROJECT
 ```
 3. Run the imagenet command
 ```ts
-$ imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/[FOLDER]/[IMAGE NAME].jpg [NAME OF NEW IMAGE].jpg
+imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/[FOLDER]/[IMAGE NAME].jpg [NAME OF NEW IMAGE].jpg
 ```
 4. If you would like to test your own image, move the image into the test directory inside the PROJECT directory inside the data directory.
 5. Your output image will be in the classification directory! Enjoy!
