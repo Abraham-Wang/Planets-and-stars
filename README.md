@@ -25,6 +25,7 @@ $ DATASET=data/PROJECT
 ```ts
 $ imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/[FOLDER]/[IMAGE NAME].jpg [NAME OF NEW IMAGE].jpg
 ```
+6. If you would like to test your own image, move the image into the test directory inside the PROJECT directory inside the data directory.
 6. Your output image will be in the classification directory! Enjoy!
 
 [View a video explanation here](video link)
