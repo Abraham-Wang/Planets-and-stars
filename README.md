@@ -17,7 +17,7 @@ network to find these objects. Using datasets from kaggle, I trained my resnet18
 2. You should have the jetson-inference library and python3 already downloaded.
 3. Go to the folder to download the model and the dataset.(Make sure to only download folders that say project)
    https://drive.google.com/drive/folders/1rEkZX5-af7_hanELkhzHILiglar2NMEq?usp=sharing
-# Training your model(you can use mine if you want)
+### Training your model(you can use mine if you want)
 1. Head to the jetson-inference directory
    ```ts
    $ cd jetson-inference
@@ -39,7 +39,7 @@ network to find these objects. Using datasets from kaggle, I trained my resnet18
    python3 onnx_export.py --model-dir=models/PROJECT
    ```
 7. Exit the docker container with Cntrl+D
- # Testing an image 
+### Testing an image 
 1. Open the terminal and navigate to the classification directory
 2. Set the NET and DATASET variables
 ```ts
