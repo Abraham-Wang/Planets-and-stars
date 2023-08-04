@@ -1,6 +1,6 @@
 # Planets-and-stars
 
-This project decides whether an object is a planet or a star. Because these are both objects in outer space, sometimes they can get hard to differentiate from far away. This project can be used to quickly decide whether an object is a planet or a star. Because of this discovery, it might be easier to find correlations between planets and stars, discover unknown planets, and learn more about our universe.
+This project decides whether an object is a planet or a star. Because these are both objects in outer space, sometimes they can get hard to differentiate from far away. This project can be used to quickly decide whether an object is a planet or a star. Because of this discovery, it might be easier to find correlations between planets and stars, discover unknown kinds of planets, and learn more about our universe.
 
 
 ## The Algorithm
