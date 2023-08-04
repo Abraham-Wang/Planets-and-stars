@@ -6,7 +6,7 @@ This project decides whether an object is a planet or a star. Because these are 
 ## The Algorithm
 
 This project uses a resnet18 model which has been transfer learned so that it can find planets and stars. It uses the image
-network to find these objects. Using datasets from kaggle, I trained my resnet18 model using 4 epochs and achieved a stunning accuracy of 99%!
+network to find these objects. Using datasets from kaggle, I trained my resnet18 model using 4 epochs and achieved a stunning accuracy of 99%! Unfortunately, the datset for stars was pretty strange so if you are using images from the interenet, the accuracy will be much lower. Also, I could only get my hands on dataset for the 9 planets around our sun so other planets will have low accuracy as well.
 
 ![Pluto](https://i.imgur.com/y1eemB2.jpg)
 
