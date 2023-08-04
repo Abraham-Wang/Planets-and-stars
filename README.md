@@ -7,15 +7,16 @@ This project decides whether an object is a planet or a star. Because these are 
 
 This project uses a resnet18 model which has been transfer learned so that it can find planets and stars. It uses the image
 network to find these objects. Using datasets from kaggle, I trained my resnet18 model using 4 epochs and achieved a stunning accuracy of 99%!
-![Image of pluto test](https://imgur.com/a/D2TPrr2)
+![Pluto test](https://imgur.com/a/D2TPrr2)
 
 
 ## Running this project
 
 1. Make sure you're logged into the nano and that the nano is connected to vs code through ssh.
 2. Go to the folder to download the model and the dataset.(Make sure to only download folders that say project)
-3. Open the terminal and navigate to the classification directory
-4. Set the NET and DATASET variables
+   https://drive.google.com/drive/folders/1rEkZX5-af7_hanELkhzHILiglar2NMEq?usp=sharing
+4. Open the terminal and navigate to the classification directory
+5. Set the NET and DATASET variables
 ```ts
 $ NET=models/PROJECT
 $ DATASET=data/PROJECT
