@@ -55,7 +55,7 @@ $ imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=outp
 
 [View a video explanation here](video link)
 
-##Datsets took from kaggle
+## Datsets took from kaggle
 
 https://www.kaggle.com/datasets/fernandosanfielreyes/solar-system-planets 
 https://www.kaggle.com/datasets/siddharthchaini/stars-and-galaxies 
