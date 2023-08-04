@@ -10,7 +10,6 @@ network to find these objects. Using datasets from kaggle, I trained my resnet18
 
 ![Image of Pluto](https://i.imgur.com/y1eemB2.jpg)
 
-
 ## Running this project
 
 
@@ -55,3 +54,8 @@ $ imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=outp
 5. Your output image will be in the classification directory! Enjoy!
 
 [View a video explanation here](video link)
+
+##Datsets took from kaggle
+
+https://www.kaggle.com/datasets/fernandosanfielreyes/solar-system-planets 
+https://www.kaggle.com/datasets/siddharthchaini/stars-and-galaxies 
