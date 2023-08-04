@@ -53,9 +53,9 @@ imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output
 4. If you would like to test your own image, move the image into the test directory inside the PROJECT directory inside the data directory.
 5. Your output image will be in the classification directory! Enjoy!
 
-[Video demonstration of images](https://youtu.be/czl5i-g_ZAo)
+[Video demonstration of how to test the images](https://youtu.be/czl5i-g_ZAo)
 ## different video but no background noise
-[Video demonstration of testing](https://youtu.be/m9PgHWcoT1o)
+[Video demonstration of how to test the images](https://youtu.be/m9PgHWcoT1o)
 
 ## Datsets took from kaggle
 
